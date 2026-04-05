@@ -1,0 +1,14 @@
+{
+  "name": "nexus-pair-server",
+  "version": "1.0.0",
+  "description": "Nexus Pairing Server (Baileys MD)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "express": "^4.18.2",
+    "pino": "^9.0.0"
+  }
+}
